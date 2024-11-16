@@ -1,0 +1,42 @@
+{
+  "name": "odin-recipes",
+  "version": "1.0.0",
+  "keywords": [
+    "odin",
+    "recipes",
+    "html",
+    "portfolio"
+  ],
+  "author": "Heath Babb",
+  "license": "ISC",
+  "description": "First portfolio project created in The Odin Project",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HeathBabb/odin-recipes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HeathBabb/odin-recipes/issues"
+  },
+  "homepage": "https://github.com/HeathBabb/odin-recipes#readme",
+  "browser list": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+
+  "scripts": {
+    "git": "git config --local core.hooksPath .githooks"
+  },
+
+  "devDependencies": {
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0"
+  }
+}
